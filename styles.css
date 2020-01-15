@@ -1,0 +1,210 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+* {box-sizing: border-box}
+input[type=text], input[type=password] {
+    width: 25%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }UKK
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    }
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 1.5;
+}
+button:hover {
+    opacity:1;
+}
+.cancelbtn {
+    padding: 14px 20px;
+    background-color:#880000;
+}
+.cancelbtn, .signupbtn {
+  float: right;
+  width: 50%;
+}
+.back {
+  background-color: #ffbf00;
+  float: center;
+  width: 50%;
+}
+  .container {
+    padding: 16px;
+  }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+#user_type {
+	height: 40px;
+	width: 98%;
+	padding: 5px 10px;
+	background: white;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.error {
+  width: 52%;
+  margin: 0px auto;
+  padding: 5px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: center;
+}
+.success {
+  padding: 0.25px;
+  width: 52%;
+  color: #3c763d;
+  background: #dff0d8;
+  border: 1px solid #3c763d;
+  margin-bottom: 0.25px;
+}
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background: #5F9EA0;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 2px 2px 0px 0px;
+  padding: 2px;
+}
+.profile_info img {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+	float: left;
+}
+.profile_info div {
+	display: inline-bloc;
+	margin: : 5px;
+}
+.profile_info:after {
+	content: "";
+	display: block;
+	clear: both;
+  margin-left: auto;
+}
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+.content {
+	width: 40%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+
+  }
+* {box-sizing: border-box}
+input[type=text], input[type=password] {
+    width: 70%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }UKK
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+button:hover {
+  opacity:1;
+}
+.loginbtn {
+  padding: 14px 20px;
+  background-color:#880000;
+  color: white;
+}
+.loginbtn{
+float:center;
+width: 20%;
+}
+.logoutbtn{
+float:center;
+width: 20%;
+padding: 14px 20px;
+background-color:#880000;
+color: white;
+}
+.container {
+  padding: 16px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 50%;
+  }
+}
+
+<style type="text/css">
+   #content{
+   	width: 50%;
+   	margin: 20px auto;
+   	border: 1px solid #cbcbcb;
+   }
+   form{
+   	width: 50%;
+   	margin: 20px auto;
+   }
+   form div{
+   	margin-top: 5px;
+   }
+   #img_div{
+   	width: 80%;
+   	padding: 5px;
+   	margin: 15px auto;
+   	border: 1px solid #cbcbcb;
+   }
+   #img_div:after{
+   	content: "";
+   	display: block;
+   	clear: both;
+   }
+   img{
+   	float: left;
+   	margin: 5px;
+   	width: 300px;
+   	height: 140px;
+   }

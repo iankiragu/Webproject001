@@ -1,0 +1,80 @@
+.top {
+width: 35px;
+height: 5px;
+background-color: black;
+margin: 6px 0;
+}
+ul {
+  position:static;
+  top:0;
+  width:100%;
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#000000 ;
+}
+  li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  li a:hover {
+    background-color:	#C0C0C0;
+}
+li {
+border-right: 0.25px solid #bbb;
+border-left: 0.25px solid #bbb;
+}
+li:last-child {
+border-right: 0.25px solid #bbb;
+border-left: 0.25px solid #bbb;
+}
+.active {
+background-color:	#880000 ;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.bg {
+  background-image: url("Logbg.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+.Sign {
+    background-image: url("Logbg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain ;
+  }
+.log{
+  background-image: url("pidgeon.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+form.login{
+	position: relative;
+	top:20px;
+	left: 20px;
+	right: 20px;
+	font-weight: 600;
+	font-family: arial;
+	font-size: 14px;
+}
+.admin{  background-image: url(".jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain ;
+ }
